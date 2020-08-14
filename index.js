@@ -153,5 +153,4 @@ bot.on('message', async message => {
   }
 });
 
-require('./server')();
 bot.login(config.token);
